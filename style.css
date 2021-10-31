@@ -33,4 +33,18 @@ body{
 .item_detail .name{
     margin-left: 100px;
     margin-top: 20px;
+}
+.item_footer {
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 3px;
+    padding-left: 10px;
+    margin-top: 30px;
+    line-height:30px;
+}
+.item_style{
+    color: red;
 } 
