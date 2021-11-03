@@ -44,8 +44,11 @@ methods:{
     }
   },
   handledelete:function(index){
-    this.itemList.splice(index, 1);
-  }
+    let result = confirm(`確定刪除嗎?`);
+    if(result){
+      this.itemList.splice(index, 1);
+    }
+  },
 },
 computed:{
   totalPrice(){
