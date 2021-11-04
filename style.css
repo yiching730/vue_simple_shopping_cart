@@ -1,5 +1,20 @@
 body{
-    background-color: rgba(0, 0, 0,.2);
+    background-color: lightblue;
+}
+.item_title {
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 3px;
+    padding-left: 10px;
+    margin-top: 30px;
+    line-height:60px;
+    margin-bottom: 30px;
+    color: mediumaquamarine;
+    font-weight: bold;
+    font-size: larger;
 }
 .item_header{
     display: flex;
@@ -44,4 +59,5 @@ body{
     padding-left: 10px;
     margin-top: 30px;
     line-height:30px;
+    color: #888;
 }
